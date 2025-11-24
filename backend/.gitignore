@@ -1,0 +1,42 @@
+# Node dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.test
+# OS files
+.DS_Store
+
+# Build outputs
+dist/
+
+# Test files
+testUsers.js
+coverage/
+
+.vscode/
+.editorconfig
+ucr_*.json
+*_202610*.json
+*_final.json
+final_studbuds_courses.json
+studbuds_courses*.json
+new_studbuds_courses.json
+course_descriptions.json
+
+uploads/
+# Backup Files
+backups/
+*.backup.json
+
+# Large Combined Data Files
+ucr_all_*.json
+ucr_all_subjects_*.json
+
+# Transform Output
+final_studbuds_courses.json
