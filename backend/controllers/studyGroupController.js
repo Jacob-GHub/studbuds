@@ -1,6 +1,6 @@
 // backend/controllers/studyGroupController.js
 
-import StudyGroup from "../models/studygroup.js";
+import StudyGroup from "../models/studyGroup.js";
 import Class from "../models/class.js";
 import { awardXP } from "../services/xpService.js";
 
