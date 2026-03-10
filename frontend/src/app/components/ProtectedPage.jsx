@@ -44,8 +44,8 @@ export default function ProtectedPage({
     <div className={`min-h-screen flex ${darkMode ? 'bg-gray-900' : 'bg-white'}`}>
       <Sidebar />
       
-      <div className={`flex-1 transition-all duration-300 ${isCollapsed ? 'ml-20' : 'ml-64'}`}>
-        <div className={`max-w-${maxWidth} mx-auto ${padding} pt-8 pb-16`}>
+      <div className={`flex-1 min-w-0 transition-all duration-300 ${isCollapsed ? 'md:ml-20' : 'md:ml-64'}`}>
+        <div className={`max-w-${maxWidth} mx-auto px-4 sm:px-6 md:${padding} pt-6 md:pt-8 pb-16`}>
           {children}
         </div>
       </div>

@@ -7,9 +7,8 @@ import { useDarkMode } from '../../context/DarkModeContext';
 
 export default function CourseJoinPrompt({ courseCode, onJoin }) {
   const { darkMode } = useDarkMode();
-
   return (
-    <div className="mt-8">
+    <div className="mt-4 sm:mt-8">
       <EmptyState
         icon={UserPlus}
         title={`Join ${courseCode}`}
